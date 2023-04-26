@@ -1,0 +1,21 @@
+:root {
+	--font1: 'Poppins', sans-serif;
+	
+	--color-base0: #eff1f5;
+	--color-base1: #e6e9ef;
+	--color-base2: #dce0e8;
+	--color-text0: #4c4f69;
+	--color-text1: #5c5f77;
+	--color-red: #ed8796;
+	--color-blue: #8aadf4;
+	--color-green: #a6da95;
+
+	--extra-large-font-size: 4rem;
+	--large-font-size: 2rem;
+	--normal-font-size: 1rem;
+	--small-font-size: .813rem;
+	--smaller-font-size: .75rem;
+}
+
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');

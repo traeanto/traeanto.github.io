@@ -26,6 +26,11 @@ p {	font-size: var(--normal-font-size); }
 }
 
 /* Header */
+#header {
+	position: relative;
+	width: 100vw;
+	overflow: hidden;
+}
 .header-particle-wrapper {
 	position: absolute;
 	height: 100vh;

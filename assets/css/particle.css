@@ -1,0 +1,99 @@
+.particle1 {
+	position: absolute;
+	background-color: var(--color-red);
+	border-radius: 100%;
+	top: 12rem;
+	left: 17rem;
+	height: 1.2rem;
+	width: 1.2rem;
+	opacity: 0.4;
+	transition: transform 200ms;
+}
+.particle2 {
+	position: absolute;
+	background-color: var(--color-blue);
+	border-radius: 20%;
+	top: 7rem;
+	left: 30rem;
+	height: 1.7rem;
+	width: 1.7rem;
+	opacity: 0.5;
+	transition: transform 200ms;
+}
+.particle3 {
+	position: absolute;
+	background-color: var(--color-green);
+	border-radius: 100%;
+	top: 10rem;
+	left: 50rem;
+	height: 2.3rem;
+	width: 2.3rem;
+	opacity: 0.7;
+	transition: transform 200ms;
+}
+.particle4 {
+	position: absolute;
+	background-color: var(--color-magenta);
+	border-radius: 20%;
+	top: 14rem;
+	left: 60rem;
+	height: 1.2rem;
+	width: 1.2rem;
+	opacity: 0.4;
+	transition: transform 200ms;
+}
+.particle5 {
+	position: absolute;
+	background-color: var(--color-yellow);
+	border-radius: 20%;
+	top: 17rem;
+	left: 24rem;
+	height: 1.7rem;
+	width: 1.7rem;
+	opacity: 0.7;
+	transition: transform 200ms;
+}
+.particle6 {
+	position: absolute;
+	background-color: var(--color-magenta);
+	border-radius: 20%;
+	top: 11rem;
+	left: 40rem;
+	height: 2rem;
+	width: 2rem;
+	opacity: 0.4;
+	transition: transform 200ms;
+}
+.particle7 {
+	position: absolute;
+	background-color: var(--color-blue);
+	border-radius: 100%;
+	top: 21rem;
+	left: 47rem;
+	height: 2.3rem;
+	width: 2.3rem;
+	opacity: 0.4;
+	transition: transform 200ms;
+}
+.particle8 {
+	position: absolute;
+	background-color: var(--color-red);
+	border-radius: 20%;
+	top: 25rem;
+	left: 56rem;
+	height: 1.6rem;
+	width: 1.6rem;
+	opacity: 0.7;
+	transition: transform 200ms;
+}
+.particle9 {
+	position: absolute;
+	background-color: var(--color-green);
+	border-radius: 100%;
+	top: 25rem;
+	left: 16rem;
+	height: 1.6rem;
+	width: 1.6rem;
+	opacity: 0.6;
+	transition: transform 200ms;
+}

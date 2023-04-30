@@ -1,99 +1,85 @@
-.particle1 {
+.particle-layer:nth-child(1),
+.particle-layer:nth-child(2),
+.particle-layer:nth-child(3),
+.particle-layer:nth-child(4),
+.particle-layer:nth-child(5),
+.particle-layer:nth-child(6),
+.particle-layer:nth-child(7),
+.particle-layer:nth-child(8),
+.particle-layer:nth-child(9) {
 	position: absolute;
+	transition: all .2s;
+}
+
+.particle-layer:nth-child(1) {
 	background-color: var(--color-red);
 	border-radius: 100%;
-	top: 12rem;
-	left: 17rem;
+	margin: -17rem 0 0 -43rem;
 	height: 1.2rem;
 	width: 1.2rem;
 	opacity: 0.4;
-	transition: transform 200ms;
 }
-.particle2 {
-	position: absolute;
+.particle-layer:nth-child(2) {
 	background-color: var(--color-blue);
 	border-radius: 20%;
-	top: 7rem;
-	left: 30rem;
+	margin: -27rem 0 0 -18rem;
 	height: 1.7rem;
 	width: 1.7rem;
 	opacity: 0.5;
-	transition: transform 200ms;
 }
-.particle3 {
-	position: absolute;
+.particle-layer:nth-child(3) {
 	background-color: var(--color-green);
 	border-radius: 100%;
-	top: 10rem;
-	left: 50rem;
+	margin: -22rem 0 0 24rem;
 	height: 2.3rem;
 	width: 2.3rem;
 	opacity: 0.7;
-	transition: transform 200ms;
 }
-.particle4 {
-	position: absolute;
+.particle-layer:nth-child(4) {
 	background-color: var(--color-magenta);
 	border-radius: 20%;
-	top: 14rem;
-	left: 60rem;
+	margin: -10rem 0 0 40rem;
 	height: 1.2rem;
 	width: 1.2rem;
 	opacity: 0.4;
-	transition: transform 200ms;
 }
-.particle5 {
-	position: absolute;
+.particle-layer:nth-child(5) {
 	background-color: var(--color-yellow);
 	border-radius: 20%;
-	top: 17rem;
-	left: 24rem;
+	margin: -8rem 0 0 -30rem;
 	height: 1.7rem;
 	width: 1.7rem;
 	opacity: 0.7;
-	transition: transform 200ms;
 }
-.particle6 {
-	position: absolute;
+.particle-layer:nth-child(6) {
 	background-color: var(--color-magenta);
 	border-radius: 20%;
-	top: 11rem;
-	left: 40rem;
+	margin: -19rem 0 0 5rem;
 	height: 2rem;
 	width: 2rem;
 	opacity: 0.4;
-	transition: transform 200ms;
 }
-.particle7 {
-	position: absolute;
+.particle-layer:nth-child(7) {
 	background-color: var(--color-blue);
 	border-radius: 100%;
-	top: 21rem;
-	left: 47rem;
+	margin: 2rem 0 0 15rem;
 	height: 2.3rem;
 	width: 2.3rem;
 	opacity: 0.4;
-	transition: transform 200ms;
 }
-.particle8 {
-	position: absolute;
+.particle-layer:nth-child(8) {
 	background-color: var(--color-red);
 	border-radius: 20%;
-	top: 25rem;
-	left: 56rem;
+	margin: 10rem 0 0 35rem;
 	height: 1.6rem;
 	width: 1.6rem;
 	opacity: 0.7;
-	transition: transform 200ms;
 }
-.particle9 {
-	position: absolute;
+.particle-layer:nth-child(9) {
 	background-color: var(--color-green);
 	border-radius: 100%;
-	top: 25rem;
-	left: 16rem;
+	margin: 7rem 0 0 -45rem;
 	height: 1.6rem;
 	width: 1.6rem;
 	opacity: 0.6;
-	transition: transform 200ms;
 }

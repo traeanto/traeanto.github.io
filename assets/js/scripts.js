@@ -1,5 +1,4 @@
-document.addEventListener('mousemove', parallax);
-function parallax(e) {
+document.addEventListener('mousemove', function(e){
 	const layer = document.querySelector('.header-particle-wrapper');
 	if(window.scrollY < layer.offsetHeight) {
 		this.querySelectorAll('.particle-layer').forEach(function(layer) {
@@ -11,13 +10,13 @@ function parallax(e) {
 			layer.style.transform = `translateX(${x}px) translateY(${y}px)`;
 		});
 	}
-}
+})
 
 window.addEventListener('scroll', function() {
 	const layer = document.querySelector('.header-particle-wrapper');
 	if(window.scrollY < layer.offsetHeight) {
-		let scroll = (window.scrollY / 1000) + 1;
+		scroll = (window.scrollY / 1000) + 1;
 		
 		layer.style.transform = `scale(${scroll})`;
 	}
-});
+})

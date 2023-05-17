@@ -9,6 +9,7 @@
 .particle-layer:nth-child(9) {
 	position: absolute;
 	transition: all .2s;
+	will-change: transform;
 }
 
 .particle-layer:nth-child(1) {

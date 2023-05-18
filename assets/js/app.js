@@ -16,9 +16,10 @@ function smoothScroll(){
 
 function setupAnimation(){
 	let mainContainer = document.querySelector('.main')
-	let mainWidth = mainContainer.getBoundingClientRect().height;
+	let mainHeight = mainContainer.clientHeight;
 
-	document.body.style.height = `${mainWidth}px`;
+	document.body.style.height = `${mainHeight}px`;
 	smoothScroll();
 }
-setupAnimation()
+setupAnimation();
+window.onresize = setupAnimation;

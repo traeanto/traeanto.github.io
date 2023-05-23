@@ -9,11 +9,23 @@
 
 	--corner-radius: 1rem;
 
-	--color-base0: #eff1f5;
-	--color-base1: #e6e9ef;
-	--color-base2: #dce0e8;
-	--color-text0: #4c4f69;
-	--color-text1: #5c5f77;
+	--light-base0: #eff1f5;
+	--light-base1: #e6e9ef;
+	--light-base2: #dce0e8;
+	--light-text0: #4c4f69;
+	--light-text1: #5c5f77;
+
+	--dark-base0: #24273a;
+	--dark-base1: #363a4f;
+	--dark-base2: #494d64;
+	--dark-text0: #cad3f5;
+	--dark-text1: #b8c0e0;
+
+	--color-base0: var(--light-base0);
+	--color-base1: var(--light-base1);
+	--color-base2: var(--light-base2);
+	--color-text0: var(--light-text0);
+	--color-text1: var(--light-text1);
 	--color-red: #ed8796;
 	--color-blue: #8aadf4;
 	--color-green: #a6da95;

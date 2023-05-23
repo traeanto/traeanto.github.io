@@ -26,6 +26,10 @@ p {	font-size: var(--normal-font-size); }
 }
 .main{
 	position: fixed;
+	display :flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 /* Header */
@@ -47,6 +51,7 @@ header {
 	left: 0;
 	z-index: -1;
 	will-change: transform;
+	transition: all .35s ease-out;
 }
 .header-text-wrapper {
 	display: flex;
@@ -78,16 +83,12 @@ header {
 
 /* Main */
 main {
-	display :flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	padding: 0 5rem;
+	max-width: 60rem;
 }
 
 /* About */
 .about {
-	max-width: 60rem;
 	padding: 4rem;
 }
 .about-title {
@@ -108,7 +109,7 @@ footer {
 	align-items: center;
 	text-align: center;
 	background-color: var(--color-base1);
-	padding-bottom: 400px;
+	padding-bottom: 40px;
 }
 footer ul { margin: 20px 0; }
 footer ul li {
